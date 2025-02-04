@@ -1,38 +1,30 @@
 ---
-title: "Quarto dashboard minimal"
+title: "Quarto dashboard advanced"
 ---
 
-This is a Quarto website.
+::: {.grid}
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+::: {.g-col-7}
 
-```{r}
-library(dplyr)
-library(ggplot2)
-```
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Bla, Bla.
 
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt Nemo enim ipsam.
 
-```{r plot}
-#| echo: false
-#| fig-cap: "Air Quality"
+:::
   
-# Create some sample data
-set.seed(123)  # for reproducibility
-data <- data.frame(
-  x = rnorm(50),
-  y = rnorm(50)
-)
+::: {.g-col-4}
 
-# Create basic scatter plot
-plot <- ggplot(data, aes(x = x, y = y)) +
-  geom_point(color = "blue", size = 3) +
-  theme_minimal() +
-  labs(
-    title = "Sample Scatter Plot",
-    x = "X Axis",
-    y = "Y Axis"
-  )
 
-# Display the plot
-print(plot)
-```
+![](images/home3.png){.center width="55%" style="border-radius: 8px;"}
+
+
+:::
+  
+:::  
+
+::: {.footer style="text-align: left; padding: 1rem; margin-top: 10rem;"}
+
+© 2025 ADD-NAME. All rights reserved. | [Privacy Policy](#) | [Terms of Service](#)
+
+:::
+
